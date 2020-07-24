@@ -3,4 +3,49 @@ html {
   overflow-x: hidden;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  color: #505962;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.video-background {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.caption {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  color: white;
+}
+.caption h1 {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
+  padding-bottom: 1rem;
+}
+.caption h3 {
+  font-size: 1rem;
+  text-shadow: 0.1rem 0.1rem 0.5rem black;
+  padding-bottom: 1.6rem;
+}
+.caption .btn-lg {
+  border-width: medium;
+  border-radius: 0;
+  font-size: 1.1rem;
+  padding: 0.6rem 1.3rem;
+}
+
+#work {
+  width: 90vw;
+}
+
 /*# sourceMappingURL=styles.css.map */

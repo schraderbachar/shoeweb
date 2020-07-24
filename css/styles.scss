@@ -1,4 +1,50 @@
 html{
     scroll-behavior: smooth;
     overflow-x: hidden;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: #505962;
+}
+.navbar{
+    background: rgba(0, 0, 0, 0.6);
+}
+
+//video section
+.video-background{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.caption{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    color: white;
+    h1{
+        font-size: 2rem;
+        letter-spacing: .2rem;    
+        text-shadow: .1rem .1rem .8rem black;
+        padding-bottom: 1rem;
+    }
+    h3{
+        font-size: 1rem;
+        text-shadow: .1rem .1rem .5rem black;
+        padding-bottom: 1.6rem;
+    }
+    .btn-lg{
+        border-width: medium;
+        border-radius: 0;
+        font-size: 1.1rem;
+        padding: .6rem 1.3rem;
+    }
+}
+
+//carousel section
+#work{
+    //shoe pics need to be 1200x720 for best results on pc
+    width: 90vw;
 }
